@@ -28,7 +28,7 @@ body::before {
 
   input,
   select {
-    width: 40%;
+    width:80%;
   }
 
   button {
@@ -36,25 +36,20 @@ body::before {
     padding: 10px 20px;
   }
 }
-@media (min-width: 768px) {
-  input,
-  select {
-    width: 30%;
+@media (max-width: 768px) {
+  .weather-app {
+    padding: 20px;
+    width: 95%;
   }
 }
 
 @media (min-width: 1024px) {
   .weather-app {
-    padding: 20px 40px;
-  }
-
-  input,
-  select {
-    width: 25%;
+    padding: 40px 80px;
   }
 
   .weather-footer ul {
-    max-width: 600px;
+    max-width: 80%;
     margin: 0 auto;
   }
 }
