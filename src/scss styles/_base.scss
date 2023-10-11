@@ -1,0 +1,26 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: $primary-color;
+}
+
+.container-fluid {
+    min-height: 100vh;
+    background-image: url("../public/icons/weather-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+
+    .content {
+        min-height: 100vh;
+        background-color: $bg-light;
+    }
+}
+
+h1 {
+    color: $secondary-color;
+}
+
+p {
+    color: darken($secondary-color, 20%);
+}

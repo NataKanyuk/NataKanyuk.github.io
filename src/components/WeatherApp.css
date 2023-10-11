@@ -1,0 +1,116 @@
+.weather-app {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 0 auto;
+}
+
+.weather-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.weather-header form {
+  width: 100%;
+}
+
+.weather-header input, .weather-header select {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  width: 100%;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.weather-header input:focus, .weather-header select:focus {
+  background-color: #e6f2ff;
+}
+
+.weather-header button {
+  background-color: #007BFF;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.weather-header button:hover {
+  background-color: #0056b3;
+}
+
+.loader {
+  margin: 20px 0;
+}
+
+.error-message {
+  color: #ff3333;
+  margin: 20px 0;
+}
+
+.weather-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-temperature {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.weather-footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.weather-footer li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.weather-footer img {
+  width: 24px;
+  height: 24px;
+}
+
+.clothing-recommendation {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #e6f2ff;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.outfit-icon {
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.loading-text {
+  color: #ccc;
+}
+
+.weather-img {
+  width: 100px;
+  height: 100px;
+  margin: 20px 0;
+}
