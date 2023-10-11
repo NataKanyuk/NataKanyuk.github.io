@@ -2,6 +2,7 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
+  align-items: center; 
   height: 100vh;
   margin: 0;
 }
@@ -20,22 +21,13 @@ body::before {
   position: absolute;
   z-index: -1;
 }
-@media (min-width: 480px) {
-  .weather-header form {
-    flex-direction: row;
-    gap: 20px;
-  }
 
-  input,
-  select {
-    width:80%;
-  }
-
-  button {
-    width: auto;
-    padding: 10px 20px;
-  }
+.weather-app {
+  padding: 20px;
+  width: 90%; 
+  box-sizing: border-box; 
 }
+
 @media (max-width: 768px) {
   .weather-app {
     padding: 20px;
@@ -45,7 +37,8 @@ body::before {
 
 @media (min-width: 1024px) {
   .weather-app {
-    padding: 40px 80px;
+    padding: 50px;
+    width: 85%;
   }
 
   .weather-footer ul {
@@ -56,6 +49,6 @@ body::before {
 
 @media (min-width: 1440px) {
   .weather-app {
-    padding: 30px 60px;
+    padding: 60px 90px;
   }
 }
